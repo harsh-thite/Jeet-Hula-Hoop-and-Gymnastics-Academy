@@ -1114,104 +1114,157 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 */
 /* Base layout fixes */
-.u-section-1 {
-  min-height: 100vh;
+/* Base responsive fixes */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
   width: 100%;
-  position: relative;
+  overflow-x: hidden;
 }
 
-/* Replace fixed width calculations with relative units */
-.u-section-1 .u-slider-1 {
+/* Container width fixes */
+.u-section-1,
+.u-section-2,
+.u-section-3,
+.u-section-4,
+.u-section-5 {
   width: 100%;
-  max-width: 353px;
-  margin: 0 auto;
-  position: relative;
-}
-
-/* Fix image scaling */
-.u-section-1 .u-image-1 {
-  width: 100%;
-  height: auto;
-  max-height: 1123px;
-  object-fit: cover;
-}
-
-/* Use flexbox for layout */
-.u-section-1 .u-container-layout-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-}
-
-/* Responsive text sizing */
-.u-section-1 .u-text-1 {
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
-  margin: 1rem auto;
-  text-align: center;
-}
-
-/* Fix media queries to use relative units */
-@media (max-width: 1199px) {
-  .u-section-1 .u-slider-1 {
-    width: 90%;
-    margin: -50vh auto 0;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: 90%;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 {
-    min-height: auto;
-  }
-
-  .u-section-1 .u-slider-1 {
-    width: 95%;
-    margin-top: -30vh;
-  }
-}
-
-/* Fix section 2 layout */
-.u-section-2 {
-  position: relative;
+  max-width: 100vw;
   overflow: hidden;
+  padding: 1rem;
 }
 
-.u-section-2 .u-layout-cell-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Flexible container */
+.u-sheet-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-.u-section-2 .u-image-1 {
+/* Responsive images */
+img {
   max-width: 100%;
   height: auto;
+}
+
+.u-image-1,
+.u-image-2 {
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
-/* Fix section 3 responsive layout */
-.u-section-3 .u-layout-wrap-1 {
+/* Flexible grid system */
+.u-repeater-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
   width: 100%;
-  max-width: 1179px;
+}
+
+/* Responsive text */
+.u-text-1 {
+  font-size: clamp(1.5rem, 5vw, 3.75rem);
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.u-text-2,
+.u-text-3,
+.u-text-4,
+.u-text-5,
+.u-text-6 {
+  font-size: clamp(1rem, 3vw, 1.875rem);
+  margin: 1rem 0;
+}
+
+/* Flexible layouts */
+.u-layout-wrap-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.u-layout-cell-1,
+.u-layout-cell-2 {
+  flex: 1 1 300px;
+  min-width: 300px;
+  padding: 1rem;
+}
+
+/* Container padding */
+.u-container-layout-1,
+.u-container-layout-2,
+.u-container-layout-3 {
+  padding: 1rem;
+}
+
+/* Responsive slider */
+.u-slider-1 {
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.u-section-3 .u-text-1 {
-  font-size: clamp(2rem, 5vw, 3.75rem);
+/* Media Queries */
+@media (max-width: 1200px) {
+  .u-layout-cell-1,
+  .u-layout-cell-2 {
+    flex: 1 1 100%;
+  }
 }
 
-/* Fix section 4 cards layout */
-.u-section-4 .u-list-1 {
-  width: 100%;
-  max-width: 843px;
-  margin: 3rem auto;
+@media (max-width: 768px) {
+  .u-repeater-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .u-text-1 {
+    font-size: clamp(1.25rem, 4vw, 2.5rem);
+  }
+
+  .u-container-layout-1,
+  .u-container-layout-2,
+  .u-container-layout-3 {
+    padding: 0.5rem;
+  }
 }
 
-.u-section-4 .u-repeater-1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+@media (max-width: 480px) {
+  .u-section-1,
+  .u-section-2,
+  .u-section-3,
+  .u-section-4,
+  .u-section-5 {
+    padding: 0.5rem;
+  }
+
+  .u-text-2,
+  .u-text-3,
+  .u-text-4,
+  .u-text-5,
+  .u-text-6 {
+    font-size: clamp(0.875rem, 2.5vw, 1.5rem);
+  }
+}
+
+/* Fix for transform animations */
+.u-icon-1,
+.u-icon-2,
+.u-text-6 {
+  transition: transform 0.3s ease;
+}
+
+.u-icon-1:hover,
+.u-icon-2:hover,
+.u-text-6:hover {
+  transform: scale(1.1);
 }
