@@ -1268,3 +1268,111 @@ img {
 .u-text-6:hover {
   transform: scale(1.1);
 }
+
+/*
+yo bro
+*/
+/* Hula hoop circle positioning */
+.hula-hoop-circle {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Smiley emoji positioning */
+.smiley {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Footer fixes */
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #631487; /* Your purple color */
+  text-align: center;
+}
+
+/* Navigation and header fixes */
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #631487;
+}
+
+.logo {
+  max-width: 80px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Main content container */
+.main-content {
+  position: relative;
+  min-height: calc(
+    100vh - 150px
+  ); /* Adjust based on your header/footer height */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-nav {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  .main-content {
+    min-height: calc(100vh - 200px);
+  }
+}
+
+/* Image positioning in header */
+.header-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Slide controls positioning */
+.slide-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.slide-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slide-dot.active {
+  background-color: #fff;
+}
