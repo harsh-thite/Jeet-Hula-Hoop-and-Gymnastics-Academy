@@ -1109,90 +1109,109 @@
   transform: scale(1.15) translateX(0px) translateY(0px) !important;
 }
 
-/* Hero section layout fix */
+/* Add viewport meta tag fix */
+/* Add this to your HTML head:
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+*/
+/* Base layout fixes */
 .u-section-1 {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
   position: relative;
 }
 
-.u-section-1 .u-image-1 {
-  height: auto;
-  max-width: 50%;
-  object-fit: contain;
-  margin: 0;
-}
-
+/* Replace fixed width calculations with relative units */
 .u-section-1 .u-slider-1 {
-  width: 40%;
-  min-height: 400px;
-  margin: 0;
-  background-color: #ceaa15; /* Golden color */
-  padding: 2rem;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100%;
+  max-width: 353px;
+  margin: 0 auto;
+  position: relative;
 }
 
+/* Fix image scaling */
+.u-section-1 .u-image-1 {
+  width: 100%;
+  height: auto;
+  max-height: 1123px;
+  object-fit: cover;
+}
+
+/* Use flexbox for layout */
 .u-section-1 .u-container-layout-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+}
+
+/* Responsive text sizing */
+.u-section-1 .u-text-1 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin: 1rem auto;
   text-align: center;
 }
 
-.u-section-1 .u-image-2 {
-  width: 170px;
-  height: 150px;
-  margin: 0 auto 2rem;
-}
-
-.u-section-1 .u-text-1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin: 1rem 0;
-  color: #631487; /* Purple color */
-}
-
-.u-section-1 .u-text-3 {
-  font-size: 1.25rem;
-  margin: 1rem 0;
-  font-style: italic;
-}
-
-/* Responsive adjustments */
-@media (max-width: 991px) {
-  .u-section-1 {
-    flex-direction: column;
-    padding: 2rem;
-  }
-
-  .u-section-1 .u-image-1 {
-    max-width: 80%;
-    margin-bottom: 2rem;
-  }
-
+/* Fix media queries to use relative units */
+@media (max-width: 1199px) {
   .u-section-1 .u-slider-1 {
-    width: 80%;
-    position: relative;
-    transform: none;
+    width: 90%;
+    margin: -50vh auto 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 90%;
   }
 }
 
-@media (max-width: 576px) {
-  .u-section-1 .u-image-1 {
-    max-width: 95%;
+@media (max-width: 767px) {
+  .u-section-1 {
+    min-height: auto;
   }
 
   .u-section-1 .u-slider-1 {
     width: 95%;
+    margin-top: -30vh;
   }
+}
 
-  .u-section-1 .u-text-1 {
-    font-size: 2rem;
-  }
+/* Fix section 2 layout */
+.u-section-2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.u-section-2 .u-layout-cell-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.u-section-2 .u-image-1 {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Fix section 3 responsive layout */
+.u-section-3 .u-layout-wrap-1 {
+  width: 100%;
+  max-width: 1179px;
+  margin: 0 auto;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: clamp(2rem, 5vw, 3.75rem);
+}
+
+/* Fix section 4 cards layout */
+.u-section-4 .u-list-1 {
+  width: 100%;
+  max-width: 843px;
+  margin: 3rem auto;
+}
+
+.u-section-4 .u-repeater-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
