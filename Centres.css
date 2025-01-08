@@ -164,7 +164,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  height: 583px;
+  height: 605px;
   margin-top: -30px;
   margin-bottom: 0;
 }
@@ -172,11 +172,11 @@
 .u-section-2 .u-text-1 {
   font-weight: 700;
   font-size: 1.875rem;
-  margin: -553px auto 0;
+  margin: -575px auto 0;
 }
 
 .u-section-2 .u-image-2 {
-  height: 563px;
+  height: 657px;
   margin-top: 527px;
   margin-bottom: 0;
 }
@@ -184,12 +184,22 @@
 .u-section-2 .u-text-2 {
   font-weight: 700;
   font-size: 1.875rem;
-  margin: -556px auto 60px;
+  margin: -650px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-text-1 {
-    margin-left: calc(((100% - 940px) / 2)  + 421px);
+    width: auto;
+    margin-top: -585px;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-top: 537px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+    margin-top: -616px;
   }
 }
 

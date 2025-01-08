@@ -45369,7 +45369,7 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         --theme-sheet-width-xl: 1140px;
-        --theme-sheet-width-lg: 940px;
+        --theme-sheet-width-lg: 1140px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
@@ -45735,20 +45735,37 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -40px auto 59px 50px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 143px;
+  }
+
   .u-header .u-image-1 {
-    margin-left: -76px;
+    margin-top: 19px;
+    margin-left: -31px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -70px;
-    margin-right: -55px;
+    width: auto;
+    margin-top: -74px;
+    margin-right: -25px;
   }
 
   .u-header .u-text-1 {
-    margin-left: 50px;
+    width: auto;
+    margin-top: -38px;
+    margin-bottom: 53px;
+    margin-left: 100px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: -74px;
+  }
 
+  .u-header .u-text-1 {
+    margin-top: -38px;
+  }
+}
 
 
 .u-footer .u-sheet-1 {
