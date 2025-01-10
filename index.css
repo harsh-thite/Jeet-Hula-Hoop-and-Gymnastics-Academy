@@ -284,7 +284,7 @@
   transform: scale(1.15) translateX(0px) translateY(0px) !important;
 } .u-section-2 {
   background-image: none;
-  min-height: 1076px;
+  min-height: 1136px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
@@ -328,7 +328,7 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 1076px;
+  min-height: 1178px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -339,7 +339,7 @@
   font-size: 2.75rem;
   letter-spacing: -3px;
   font-weight: 700;
-  margin: 34px 187px 0 40px;
+  margin: 0 187px 0 40px;
 }
 
 .u-section-2 .u-text-4 {
