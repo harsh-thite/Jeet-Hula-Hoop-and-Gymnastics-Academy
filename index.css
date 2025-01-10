@@ -314,7 +314,7 @@
   font-weight: 700;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: -268px -187px 0 566px;
+  margin: -268px -121px 0 500px;
 }
 
 .u-section-2 .u-text-2 {
@@ -388,7 +388,7 @@
   }
 
   .u-section-2 .u-text-1 {
-    margin-right: -187px;
+    margin-right: -121px;
     margin-left: 273px;
   }
 
