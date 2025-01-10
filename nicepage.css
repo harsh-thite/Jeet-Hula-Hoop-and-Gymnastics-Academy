@@ -3,6 +3,14 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 
 .fr-clearfix::after {
   clear: both;
@@ -59,6 +67,12 @@
     border-collapse: collapse;
     empty-cells: show;
     max-width: 100%; }
+    @media (max-width: 768px) {
+      .fr-view table {
+        width: 100%; /* Make tables fit smaller screens */
+      }
+    }
+    
     .fr-view table td {
       min-width: 5px; }
     .fr-view table.fr-dashed-borders td, .fr-view table.fr-dashed-borders th {
@@ -157,9 +171,13 @@
     font-family: "Courier New", Courier, monospace; }
   .fr-view .fr-class-transparency {
     opacity: 0.5; }
-  .fr-view img {
-    position: relative;
-    max-width: 100%; }
+    .fr-view img {
+      position: relative;
+      max-width: 100%;
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Prevent inline gaps */
+    }
+    
     .fr-view img.fr-dib {
       margin: 10px auto;
       display: block;
@@ -452,7 +470,9 @@ sup {
   top: -0.5em;
 }
 img {
-  border-style: none;
+  max-width: 100%;
+  height: auto;
+  display: block; /* Avoid inline gaps */
 }
 svg:not(:root) {
   overflow: hidden;
@@ -587,6 +607,12 @@ ol {
 .u-background-effect ~ .u-container-layout {
   cursor: pointer;
 }
+.u-container-layout {
+  display: flex;
+  flex-wrap: wrap; /* Allow child elements to wrap */
+  justify-content: space-between; /* Adjust alignment */
+}
+
 /* Fade effect */
 .u-effect-fade .u-over-slide {
   opacity: 0;
@@ -1027,7 +1053,7 @@ ol {
 }
 .u-btn {
   /*display: inline-block;*/
-  display: table;
+  display: inline-block;
   /*TODO maye need another solution for negative marin*/
   cursor: pointer;
   color: inherit;
@@ -1055,6 +1081,8 @@ ol {
   border-radius: 0;
   --border-radius: 0;
   align-self: flex-start;
+  width: auto; /* Allow buttons to resize */
+
 }
 .u-btn:focus,
 .u-btn:active:focus,
@@ -45704,9 +45732,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 119px;
-  height: 106px;
-  margin: 9px auto 0 -76px;
+  width: 100%;
+  max-width: 120px;
+  height: auto; /* Maintain proportions */
 }
 
 .u-header .u-logo-image-1 {
@@ -45971,3 +45999,13 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+
+ @media (max-width: 768px) {
+  .u-header .u-menu-1 {
+    margin: 0 auto; /* Center menu */
+  }
+  .u-container-layout {
+    padding: 8px; /* Reduce padding */
+  }
+}
