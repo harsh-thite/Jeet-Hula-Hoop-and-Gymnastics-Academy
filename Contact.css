@@ -224,11 +224,15 @@
     min-height: 561px;
   }
 
+  .u-section-1 .u-text-5 {
+    margin-right: 50px;
+  }
+
   .u-section-1 .u-text-6 {
     width: auto;
     margin-top: 33px;
+    margin-right: 50px;
     margin-left: 0;
-    margin-right: 0;
   }
 
   .u-section-1 .u-text-7 {
