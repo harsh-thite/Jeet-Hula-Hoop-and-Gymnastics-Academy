@@ -184,34 +184,50 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 943px;
+    min-height: 1005px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 457px;
-    margin: 0 auto 0 0;
+    margin: 0 auto 1px 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 411px;
+    min-height: 506px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
+    width: auto;
+    margin-top: 52px;
+    margin-right: 66px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 33px;
+    margin-top: 52px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-top: 38px;
+    margin-left: 32px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
+    margin-right: 80px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 532px;
+    min-height: 561px;
   }
 
   .u-section-1 .u-text-6 {
     width: auto;
     margin-top: 33px;
-    margin-right: auto;
+    margin-right: 169px;
     margin-left: 0;
   }
 
