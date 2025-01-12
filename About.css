@@ -199,29 +199,27 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1246px;
+    min-height: 1278px;
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
     font-size: 1.5rem;
+    width: auto;
     margin-top: 49px;
-    margin-right: 310px;
+    margin-right: 288px;
     margin-left: 94px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.25rem;
     margin-top: 28px;
-    margin-right: 166px;
+    margin-right: 218px;
     margin-left: 35px;
   }
 
   .u-section-1 .u-list-1 {
-    width: 459px;
-    margin-top: 41px;
-    margin-right: auto;
-    margin-left: -50px;
+    width: 485px;
+    margin: 41px auto 1px -50px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -233,21 +231,21 @@
   }
 
   .u-section-1 .u-image-1 {
-    width: 251px;
-    height: 336px;
-    margin-top: -10px;
+    width: 276px;
+    height: 369px;
+    margin-top: -37px;
+    margin-right: 92px;
   }
 
   .u-section-1 .u-text-3 {
     font-size: 1.125rem;
-    margin-top: 16px;
-    margin-left: 31px;
-    margin-right: 31px;
+    margin-right: -3px;
+    margin-left: 22px;
   }
 
   .u-section-1 .u-text-4 {
     width: auto;
-    margin-top: 23px;
+    margin-top: 15px;
     margin-left: 53px;
     margin-right: 53px;
   }
@@ -255,6 +253,8 @@
   .u-section-1 .u-text-5 {
     font-size: 0.875rem;
     margin-top: 28px;
+    margin-right: 31px;
+    margin-left: 53px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -262,21 +262,21 @@
   }
 
   .u-section-1 .u-image-2 {
-    width: 251px;
-    height: 336px;
-    margin-top: -10px;
+    width: 276px;
+    height: 369px;
+    margin-top: -37px;
+    margin-right: 92px;
   }
 
   .u-section-1 .u-text-6 {
     font-size: 1.125rem;
-    margin-top: 16px;
-    margin-left: 31px;
-    margin-right: 31px;
+    margin-right: -3px;
+    margin-left: 22px;
   }
 
   .u-section-1 .u-text-7 {
     width: auto;
-    margin-top: 23px;
+    margin-top: 15px;
     margin-left: 53px;
     margin-right: 53px;
   }
@@ -284,6 +284,8 @@
   .u-section-1 .u-text-8 {
     font-size: 0.875rem;
     margin-top: 28px;
+    margin-right: 31px;
+    margin-left: 53px;
   }
 }
 
