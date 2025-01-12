@@ -45791,27 +45791,27 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: 79px;
     height: 70px;
-    margin-top: 37px;
-    margin-left: 0;
+    margin-top: 35px;
+    margin-left: calc(((100% - 575px) / 2)  + -39px);
   }
 
   .u-header .u-text-1 {
     font-size: 1.125rem;
-    margin-top: -50px;
-    margin-left: calc(((100% - 575px) / 2)  + 31px);
+    margin-top: -42px;
+    margin-left: calc(((100% - 575px) / 2)  + 65px);
   }
 
   .u-header .u-menu-1 {
-    margin-top: -34px;
-    margin-right: calc(((100% - 575px) / 2)  + 113px);
+    margin-top: -39px;
+    margin-right: calc(((100% - 575px) / 2)  + 74px);
   }
 
   .u-header .u-text-2 {
     font-size: 0.875rem;
     width: auto;
-    margin-top: 55px;
-    margin-bottom: 16px;
-    margin-left: calc(((100% - 575px) / 2)  + -28px);
+    margin-top: 52px;
+    margin-bottom: 19px;
+    margin-left: calc(((100% - 575px) / 2)  + 40px);
   }
 }
 .u-footer .u-sheet-1 {
