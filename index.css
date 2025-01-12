@@ -691,10 +691,10 @@
 
   .u-section-3 .u-text-2 {
     font-size: 1.25rem;
-    width: 431px;
+    width: auto;
     margin-top: 62px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 62px;
+    margin-left: 50px;
   }
 
   .u-section-3 .u-layout-cell-2 {
