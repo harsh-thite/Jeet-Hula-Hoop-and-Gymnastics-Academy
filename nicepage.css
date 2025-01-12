@@ -45785,32 +45785,32 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
    .u-header {
-    min-height: 196px;
+    min-height: 257px;
   }
 
   .u-header .u-image-1 {
     width: 79px;
     height: 70px;
-    margin-top: 35px;
-    margin-left: calc(((100% - 575px) / 2)  + -39px);
+    margin-top: 61px;
+    margin-left: calc(((100% - 575px) / 2));
   }
 
   .u-header .u-text-1 {
     font-size: 1.5rem;
-    margin-top: -55px;
-    margin-right: 64px;
-    margin-left: calc(((100% - 575px) / 2)  + 40px);
+    width: 279px;
+    margin-top: -70px;
+    margin-left: auto;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 18px;
-    margin-right: calc(((100% - 575px) / 2)  + 16px);
+    margin-top: -59px;
+    margin-right: calc(((100% - 575px) / 2)  + 53px);
   }
 
   .u-header .u-text-2 {
     font-size: 1.125rem;
     width: auto;
-    margin: 9px 24px 19px;
+    margin: 75px 24px 36px;
   }
 }
 .u-footer .u-sheet-1 {
