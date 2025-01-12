@@ -183,12 +183,36 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 943px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
   }
 
   .u-section-1 .u-text-2 {
     margin-right: 33px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 532px;
+  }
+
+  .u-section-1 .u-text-6 {
+    width: auto;
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-top: 58px;
   }
 }
 

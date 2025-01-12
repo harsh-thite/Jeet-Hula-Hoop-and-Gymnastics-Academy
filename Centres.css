@@ -216,7 +216,29 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 992px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 459px;
+    margin-top: 0;
+  }
+
   .u-section-2 .u-text-1 {
-    margin-left: calc(((100% - 340px) / 2)  + 152px);
+    font-size: 1.5rem;
+    margin-top: -442px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 533px;
+    margin-top: 404px;
+  }
+
+  .u-section-2 .u-text-2 {
+    font-size: 1.5rem;
+    margin-top: -516px;
+    margin-bottom: 478px;
   }
 }
