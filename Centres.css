@@ -152,6 +152,20 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 808px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 203px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 67px;
+    margin-right: 350px;
+  }
+
   .u-section-1 .u-text-3 {
     margin-right: 0;
   }
