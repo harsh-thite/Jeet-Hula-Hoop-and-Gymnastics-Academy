@@ -45697,12 +45697,13 @@ a.u-link.u-text-hover-grey-90:hover {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 178px;
 }
 
 .u-header .u-image-1 {
   width: 119px;
   height: 106px;
-  margin: 9px auto 0 -76px;
+  margin: 10px auto 0 calc(((100% - 1100px) / 2)  + -109px);
 }
 
 .u-header .u-logo-image-1 {
@@ -45713,11 +45714,11 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   font-size: 1.75rem;
   font-weight: 700;
-  margin: -75px auto 0 52px;
+  margin: -75px auto 0 calc(((100% - 1100px) / 2)  + 21px);
 }
 
 .u-header .u-menu-1 {
-  margin: -39px -55px 0 auto;
+  margin: -40px calc(((100% - 1100px) / 2)  + -103px) 0 auto;
 }
 
 .u-header .u-nav-1 {
