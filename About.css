@@ -216,8 +216,8 @@
   }
 
   .u-section-1 .u-list-1 {
-    width: 675px;
-    margin: 43px -50px 3px;
+    width: 625px;
+    margin: 43px auto 3px -50px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -627,18 +627,19 @@
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    width: 669px;
-    margin-top: 59px;
+    width: 619px;
+    margin-top: 55px;
     margin-right: auto;
     margin-left: -44px;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 349px;
+    min-height: 351px;
   }
 
   .u-section-2 .u-text-1 {
     font-size: 1.875rem;
+    margin-top: 52px;
   }
 
   .u-section-2 .u-text-2 {
@@ -646,7 +647,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 396px;
+    min-height: 398px;
   }
 
   .u-section-2 .u-text-3 {
@@ -655,15 +656,15 @@
   }
 
   .u-section-2 .u-list-1 {
-    width: 675px;
+    width: 625px;
     margin-top: 31px;
+    margin-right: auto;
     margin-left: -50px;
-    margin-right: -50px;
   }
 
   .u-section-2 .u-repeater-1 {
     grid-auto-columns: 100%;
-    min-height: 1079px;
+    min-height: 1071px;
   }
 
   .u-section-2 .u-container-layout-3 {
@@ -673,7 +674,7 @@
   .u-section-2 .u-icon-1 {
     width: 70px;
     height: 70px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-right: 94px;
     margin-left: auto;
   }
@@ -700,7 +701,7 @@
   .u-section-2 .u-icon-2 {
     width: 70px;
     height: 70px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-right: 94px;
     margin-left: auto;
   }
@@ -727,7 +728,7 @@
   .u-section-2 .u-icon-3 {
     width: 70px;
     height: 70px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-right: 94px;
     margin-left: auto;
   }
@@ -1156,8 +1157,8 @@
 
   .u-section-3 .u-group-1 {
     min-height: 335px;
-    width: 665px;
-    margin-right: 0;
+    width: 626px;
+    margin-right: 40px;
     margin-left: 10px;
   }
 
@@ -1173,7 +1174,9 @@
 
   .u-section-3 .u-text-3 {
     font-size: 1.5rem;
-    margin: -197px -26px 149px 280px;
+    margin-top: -197px;
+    margin-right: 45px;
+    margin-bottom: 149px;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -1214,8 +1217,8 @@
 
   .u-section-3 .u-icon-2 {
     margin-top: 3px;
-    margin-right: 296px;
     margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1464,7 +1467,9 @@
   }
 
   .u-section-4 .u-text-3 {
+    font-size: 1rem;
     margin-top: -41px;
+    margin-right: 48px;
     margin-left: 121px;
   }
 }
