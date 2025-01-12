@@ -203,23 +203,20 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 600px;
+    min-height: 1089px;
   }
 
   .u-section-1 .u-image-1 {
     object-position: 39.87% 50%;
     height: 520px;
-    width: 506px;
-    margin-right: auto;
-    margin-left: 0;
   }
 
   .u-section-1 .u-slider-1 {
     min-height: 543px;
-    width: calc(((100% - 575px) / 2)  + 456px);
     margin-top: 0;
-    margin-right: auto;
-    margin-left: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-1 .u-carousel-indicators-1 {
