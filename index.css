@@ -493,7 +493,7 @@
   .u-section-2 .u-text-3 {
     font-size: 1.5rem;
     width: auto;
-    margin-top: 237px;
+    margin-top: 136px;
     margin-right: 51px;
     margin-left: 31px;
   }
@@ -501,7 +501,7 @@
   .u-section-2 .u-text-4 {
     font-size: 1.5rem;
     width: auto;
-    margin-top: 51px;
+    margin-top: 136px;
     margin-right: 51px;
     margin-left: 24px;
   }
@@ -691,10 +691,10 @@
 
   .u-section-3 .u-text-2 {
     font-size: 1.25rem;
-    width: auto;
+    width: 431px;
     margin-top: 62px;
-    margin-right: 35px;
-    margin-left: 62px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-3 .u-layout-cell-2 {
