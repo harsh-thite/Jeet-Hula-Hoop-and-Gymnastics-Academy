@@ -284,6 +284,10 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 1346px;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
     width: auto;
@@ -300,9 +304,9 @@
   }
 
   .u-section-1 .u-list-1 {
-    width: 387px;
+    width: 392px;
     margin-top: 54px;
-    margin-left: calc(((100% - 575px) / 2)  + 28px);
+    margin-left: calc(((100% - 575px) / 2));
   }
 
   .u-section-1 .u-repeater-1 {
@@ -372,8 +376,8 @@
   }
 
   .u-section-1 .u-group-1 {
-    margin-top: -735px;
-    margin-right: calc(((100% - 575px) / 2)  + 218px);
+    margin-top: -730px;
+    margin-right: calc(((100% - 575px) / 2)  + 183px);
   }
 }
 

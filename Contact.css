@@ -279,12 +279,13 @@
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: 389px;
-    margin-left: calc(((100% - 575px) / 2)  + 68px);
+    width: 400px;
+    margin-right: calc(((100% - 575px) / 2)  + 68px);
+    margin-left: auto;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 486px;
+    min-height: 514px;
   }
 
   .u-section-1 .u-text-1 {
