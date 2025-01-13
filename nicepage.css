@@ -46020,6 +46020,15 @@ a.u-link.u-text-hover-grey-90:hover {
 } 
 
 
+ /*begin-variables custom-site-css*/.sticky-block {
+    position: fixed;
+    top: 90%; /* Adjust this to set the vertical position */
+    right: 15px; /* Adjust this to set the horizontal position */
+    transform: translateY(-50%);
+    z-index: 1000; /* Ensures it stays above other elements */
+    width: 40px !important; /* Force the width to 40px */
+}
+/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
