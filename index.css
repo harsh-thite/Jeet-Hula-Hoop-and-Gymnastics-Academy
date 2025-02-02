@@ -1,9 +1,24 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
 .u-section-1 {
-  min-height: 1282px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+/*Edit*/
+
+.u-section-1 {
+  min-height: auto; /* Instead of 1282px */
+  padding-bottom: 20px;
 }
 
 .u-section-1 .u-image-1 {
-  height: 1123px;
+  height: auto;
   margin-top: 0;
   margin-bottom: 0;
   object-position: 75.97% 50%;
@@ -1281,5 +1296,20 @@ h2 {
   }
   .u-container-layout {
     padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+/*edit might delete */
+@media (max-width: 575px) {
+  .u-section-1 {
+    min-height: auto;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: auto;
+    max-height: 80vh; /* Adjust for smaller screens */
+    object-position: center;
   }
 }
