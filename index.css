@@ -227,12 +227,12 @@ html {
   .u-section-1 .u-text-5 {
     width: auto;
     font-size: 2rem;
-    margin: 20px auto;
+    margin: 20px -80px;
   }
 
   .u-section-1 .u-text-6 {
     width: auto;
-    margin: 20px 0;
+    margin: 20px -20px;
   }
 
   .u-section-1 .u-group-1 {
